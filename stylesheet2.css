@@ -1,0 +1,27 @@
+.circle {
+    border-radius: 50%;
+}
+#face{
+    display: inline-block;
+    width: 150px;
+    float: left;
+}
+
+#title{
+    width: 40%;
+    display: block;
+    margin: 50px auto;
+}
+
+#name{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-left: 50px;
+    float: right;
+    text-align: center;
+}
+
+#portfolio{
+    font-size: 25px;
+}

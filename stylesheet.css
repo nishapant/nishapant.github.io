@@ -1,0 +1,60 @@
+#name{
+    font-family: 'Muli', sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+
+#biography{
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.information{
+    margin:160px 70px;
+    width: 600px;
+
+}
+
+.button{
+    border-bottom: solid #9999FF 1px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+    margin:10px 10px 10px 0;
+    color:#9999FF;
+
+}
+
+#icon{
+    font-size: 25px;
+    letter-spacing: 20px;
+    color: #9999FF;
+}
+
+a{
+    text-decoration: none;
+    color: #9999FF;
+
+}
+
+.underline{
+    border-bottom: solid 1px #9999FF;
+    padding-bottom: 3px;
+}
+
+body{
+    color: black;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+
+}
+.little{
+    color:#9999FF;
+}
+
