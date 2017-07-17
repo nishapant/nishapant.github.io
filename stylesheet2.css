@@ -4,7 +4,6 @@
 #face{
     display: inline-block;
     width: 150px;
-    float: left;
 }
 
 #title{
@@ -15,13 +14,65 @@
 
 #name{
     display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    margin-left: 50px;
-    float: right;
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 45px;
+    margin-left: 30%;
     text-align: center;
+    font-weight: lighter;
 }
 
 #portfolio{
     font-size: 25px;
+    font-weight: lighter;
+}
+
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("resources/AvenirNextLTPRo-Regular.otf") format("opentype");
+}
+
+.projects{
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    width: 33%;
+    white-space: nowrap;
+}
+#calculator{
+    background-color: rgba(124,165,184,1);
+}
+#runsilo{
+   background-color: rgba(169,219,184,1);
+}
+#uno{
+   background-color: #8C7051;
+}
+#reversi{
+    background-color:rgb(71,104,44);
+}
+
+#run{
+    background-color: #EF3054;
+}
+
+.header{
+    font-size: 25px;
+}
+
+.language{
+    font-size: 15px;
+}
+.description{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 3%;
+    display: block;
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+
 }
