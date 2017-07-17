@@ -3,7 +3,7 @@
 }
 #face{
     display: inline-block;
-    width: 150px;
+    width: 25%;
 }
 
 #title{
@@ -14,7 +14,7 @@
 
 #name{
     display: inline-block;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-size: 45px;
     margin-left: 30%;
     text-align: center;
@@ -27,18 +27,18 @@
 }
 
 
-@font-face {
-    font-family: 'Avenir Next';
-    src: url("resources/AvenirNextLTPRo-Regular.otf") format("opentype");
-}
 
 .projects{
     display: inline-block;
     vertical-align: top;
-    font-family: 'Avenir Next', sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: lighter;
+    line-height: 200%;
     text-align: center;
-    width: 33%;
+    width: 30%;
+    padding-right: 1%;
+    margin-top: 2%;
+    margin-left: 2%;
     white-space: nowrap;
 }
 #calculator{
@@ -58,6 +58,10 @@
     background-color: #EF3054;
 }
 
+#jeopardy{
+  background-color: #BF5FFF;
+}
+
 .header{
     font-size: 25px;
 }
@@ -66,13 +70,43 @@
     font-size: 15px;
 }
 .description{
-    font-size: 15px;
-    text-align: left;
+    font-size: 18px;
     margin-left: 3%;
     display: block;
+    font-family: 'Open Sans', sans-serif;
     white-space: pre-wrap;      /* CSS3 */
     white-space: -moz-pre-wrap; /* Firefox */
     white-space: -o-pre-wrap;   /* Opera 7 */
     word-wrap: break-word;      /* IE */
+}
 
+#p1,  #p2,#p3, #p4{
+    display: none;
+}
+
+#tv{
+  margin-top: 2%;
+  width: 20%;
+}
+
+#everything{
+  margin: 0 auto;
+}
+
+#calcImg{
+  margin-top: 2%;
+  width: 20%;
+}
+
+#stopwatch{
+  margin-top: 2%;
+  width: 26%;
+}
+#cards{
+  margin-top: 2%;
+  width: 34%;
+}
+#shoe{
+  margin-top: 2%;
+  width: 40%;
 }

@@ -1,29 +1,30 @@
 #name{
-    font-family: 'Avenir Next', sans-serif;
     font-weight: lighter;
     margin-bottom:7%;
     letter-spacing: 1px;
     font-size: 45px;
+    font-family: 'Muli', sans-serif;
 }
 
 #biography{
-    font-family: 'Avenir Next', sans-serif;
     font-weight: lighter;
     font-size: 18px;
     line-height: 200%;
+    font-family: 'Muli', sans-serif;
 }
 
 .information{
     margin:10% 10% 10% 0;
     width: 40%;
     float: right;
+    font-family: 'Muli', sans-serif;
 
 }
 
 .button{
+    font-family: 'Muli', sans-serif;
     border-bottom: solid #9999FF 1px;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
     padding: 15px;
     margin:10px 10px 10px 0;
     color:#9999FF;
@@ -59,15 +60,9 @@ body{
     color:#9999FF;
 }
 
-@font-face {
-    font-family: 'Avenir Next';
-    src: url("resources/AvenirNextLTPRo-Regular.otf") format("opentype");
-}
-
 #image{
     float: left;
     width:40%;
-    opacity: 1;
 }
 
 #headshot{
@@ -75,13 +70,14 @@ body{
     margin-left: 15%;
     position: absolute;
     height: 65%;
+    opacity: 0.8;
 }
 
 
 a:hover{
-    color: #60AFFE;
+    color: #746CC0;
 }
 
 .underline:hover{
-    border-bottom: solid 1px #60AFFE;
+    border-bottom: solid 1px #746CC0;
 }

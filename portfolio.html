@@ -4,7 +4,9 @@
     <title>NISHA PANT</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300|Open+Sans:300" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="title">
@@ -17,28 +19,43 @@
                 </span>
             </h1>
     </div>
+<div id=everything>
 
-    <div id="calculator" class="projects">
-        <p class="header">Calculator</p>
-        <p class="description">A program designed in java which can compute various math problems similar to an advanced scientific calculator. Some things the calculator can compute: linear regression, permutations, combinations, factorials, </p>
-        <p class="language">JAVA</p>
-    </div>
+  <div id="runsilo" class="projects" onmouseover="expand('p1')" onmouseout="hide('p1')">
+      <img src="resources/stopwatch.png" id="stopwatch">
+      <p class="header">RunSilo</p>
+      <p class="description" id="p1">A website that can calculate the running pace of a user with a mathematical formula. The website also allows users to create a running plan based on their level of fitness.</p>
+      <p class="language">HTML, CSS & JAVASCRIPT</p>
+  </div>
 
-    <div id="runsilo" class="projects">
-        <p class="header">RunSilo</p>
-        <p class="description"></p>
-        <p class="language">HTML, CSS & JAVASCRIPT</p>
-    </div>
+  <div id="uno" class="projects" onmouseover="expand('p2')" onmouseout="hide('p2')">
+      <img src="resources/cards.png" id="cards">
+      <p class="header">Uno</p>
+      <p class="description" id="p2"></p>
+      <p class="language">JAVA</p>
+  </div>
 
-    <div id="uno" class="projects">
-        <p class="header">Uno</p>
-        <p class="description"></p>
-        <p class="language">JAVA</p>
-    </div>
-    <div class="projects" id="run">
-        <p class="header">Run</p>
-        <p class="description"></p>
-        <p class="language">HTML & CSS</p>
-    </div>
+  <div id="calculator" class="projects" onmouseover="expand('p3')" onmouseout="hide('p3')">
+      <img src="resources/calc.png" id="calcImg">
+      <p class="header">Calculator</p>
+      <p class="description" id="p3">A program designed in java which can compute various math problems similar to an advanced scientific calculator. Some things the calculator can compute: linear regression, permutations, combinations, factorials and trig functions.</p>
+      <p class="language">JAVA</p>
+  </div>
+
+  <div id="run" class="projects" onmouseover="expand('p4')" onmouseout="hide('p4')">
+      <img src="resources/shoes.png" id="shoe">
+      <p class="header">Run</p>
+      <p class="description" id="p4"></p>
+      <p class="language">HTML & CSS</p>
+  </div>
+
+  <div class="projects" id="jeopardy" onmouseover="expand('p5')" onmouseout="hide('p5')">
+      <img src="resources/tv.png" id="tv">
+      <p class="header">Jeopardy</p>
+      <p class="description" id="p5"></p>
+      <p class="language">JAVA</p>
+  </div>
+</div>
+
 </body>
 </html>
