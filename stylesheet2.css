@@ -1,15 +1,11 @@
-.circle {
-    border-radius: 50%;
-}
-#face{
-    display: inline-block;
-    width: 25%;
+html, body{
+    height: 100%;
 }
 
 #title{
     width: 40%;
     display: block;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 #name{
@@ -24,9 +20,8 @@
 #portfolio{
     font-size: 25px;
     font-weight: lighter;
+
 }
-
-
 
 .projects{
     display: inline-block;
@@ -35,31 +30,33 @@
     font-weight: lighter;
     line-height: 200%;
     text-align: center;
-    width: 30%;
+    width: 27%;
+    height: auto;
     padding-right: 1%;
-    margin-top: 2%;
-    margin-left: 2%;
+    padding-left: 1%;
     white-space: nowrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
-#calculator{
-    background-color: rgba(124,165,184,1);
-}
-#runsilo{
-   background-color: rgba(169,219,184,1);
+
+
+
+#runsilo, #reversi{
+   background-color: #FEDCD2;
 }
 #uno{
-   background-color: #8C7051;
+   background-color: #DF744A;
 }
-#reversi{
-    background-color:rgb(71,104,44);
+#calculator{
+    background-color: #BFD8D2;
 }
 
 #run{
-    background-color: #EF3054;
+    background-color: #DCB239;
 }
 
 #jeopardy{
-  background-color: #BF5FFF;
+  background-color: darkgray;
 }
 
 .header{
@@ -71,42 +68,23 @@
 }
 .description{
     font-size: 18px;
-    margin-left: 3%;
+    margin-left: 5%;
+    margin-right: 2%;
     display: block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     white-space: pre-wrap;      /* CSS3 */
     white-space: -moz-pre-wrap; /* Firefox */
     white-space: -o-pre-wrap;   /* Opera 7 */
     word-wrap: break-word;      /* IE */
 }
 
-#p1,  #p2,#p3, #p4{
-    display: none;
-}
-
-#tv{
-  margin-top: 2%;
-  width: 20%;
-}
-
-#everything{
-  margin: 0 auto;
-}
-
-#calcImg{
-  margin-top: 2%;
-  width: 20%;
-}
-
-#stopwatch{
-  margin-top: 2%;
-  width: 26%;
-}
-#cards{
-  margin-top: 2%;
-  width: 34%;
-}
-#shoe{
-  margin-top: 2%;
-  width: 40%;
+#container{
+    display: flex;
+    display: -webkit-flex;
+    flex-grow: 0;
+    -ms-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-left: 13%;
 }

@@ -10,7 +10,8 @@
     font-weight: lighter;
     font-size: 18px;
     line-height: 200%;
-    font-family: 'Muli', sans-serif;
+    margin-top: -2%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .information{
@@ -32,9 +33,10 @@
 }
 
 #icon{
-    font-size: 25px;
-    letter-spacing: 20px;
+    font-size: 30px;
+    letter-spacing: 38px;
     color: #9999FF;
+    text-align: center;
 }
 
 a{
