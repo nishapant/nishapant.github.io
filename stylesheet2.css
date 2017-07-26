@@ -42,21 +42,20 @@ html, body{
 
 
 #runsilo, #reversi{
-   background-color: #FEDCD2;
+   background-color: powderblue;
 }
 #uno{
-   background-color: #DF744A;
-}
+    background-color: #77C9D4;}
 #calculator{
-    background-color: #BFD8D2;
+    background-color: #57BC90;
 }
 
 #run{
-    background-color: #DCB239;
+    background-color: #015249;
 }
 
 #jeopardy{
-  background-color: darkgray;
+    background-color: #A5A5AF;
 }
 
 .header{
