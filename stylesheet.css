@@ -40,8 +40,8 @@
 }
 
 a{
-    text-decoration: none;
-    color: #9999FF;
+    text-decoration: none !important;
+    color: #9999FF !important;
 
 }
 
@@ -77,9 +77,100 @@ body{
 
 
 a:hover{
-    color: #746CC0;
+    color: #746CC0 !important;
 }
 
 .underline:hover{
     border-bottom: solid 1px #746CC0;
+}
+@media all and (max-width: 1690px) {
+
+}
+@media all and (max-width: 1370px) {
+  #headshot{
+    margin-left: 7%;
+  }
+
+}
+@media all and (max-width: 1280px) and (orientation: portrait){
+  #image{
+    display: none;
+  }
+  .information{
+    margin: 80px auto;
+    float: none;
+    width: 70%;
+    font-size: 50px;
+  }
+
+}
+@media all and (max-width: 1000px) {
+  #headshot{
+    margin-left: 7%;
+  }
+
+}
+@media all and (max-width: 850px){
+  #headshot{
+    margin-left: 5%;
+  }
+
+}
+
+@media all and (max-width: 850px) and (orientation: portrait) {
+  #image{
+    display: none;
+  }
+  .information{
+    margin: 60px auto;
+    float: none;
+    width: 70%;
+    font-size: 30px;
+  }
+
+}
+@media all and (max-width: 736px) {
+  #image{
+    display: none;
+  }
+  .information{
+    margin: 60px auto;
+    float: none;
+    width: 72%;
+  }
+
+  #icon{
+    letter-spacing: 17px;
+    font-size: 27px;
+  }
+
+}
+@media all and (max-width: 480px) {
+  #image{
+    display: none;
+  }
+  .information{
+    width: 72%;
+    float: none;
+    margin: 10% auto;
+  }
+  #icon{
+    letter-spacing: 17px;
+    font-size: 27px;
+  }
+
+  @media all and (max-width: 350px) {
+    #image{
+      display: none;
+    }
+    .information{
+      width: 75%;
+      float: none;
+      margin: 10% auto;
+    }
+    #icon{
+      letter-spacing: 17px;
+      font-size: 27px;
+    }
+
 }
