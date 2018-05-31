@@ -1,37 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>NISHA PANT</title>
+    <title>Nisha Pant</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=9,10,11" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="script.js"> </script>
 </head>
 <body>
-    <div id="image">
-        <img src="resources/headshot.jpg" id="headshot">
-    </div>
-    <div class="information">
-            <h1 id="name">Nisha Pant</h1>
-            <p id="biography">Hey! I'm Nisha, a junior at Conant High School. I am interested in machine learning and artifical intelligence. In my free time, you can find me programming,
-              running, trying new foods and listening to music. I previously attended
-                <a href="https://girlswhocode.com/summer-immersion-programs/" target="_blank" class="underline">Girls Who Code</a> at
-                <a href="https://www.mysynchrony.com/" target="_blank" class="underline">Synchrony Financial</a>. I plan to pursue computer science in college. You can check out my
-                <a href="resources/nisharesume.pdf" target="_blank">resumé</a> here.
-            </p>
-            <p id="icon">
-                <a href="https://twitter.com/nishpant" target="_blank" class="little"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="mailto:nisha007pant@gmail.com" class="little"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                <a href="https://github.com/nishapant" target="_blank" class="little"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/nishapant/" target="_blank" class="little"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+  <div id="header">
+      <div id="name">
+        <button>NISHA PANT</button>
+        <p id="hey">Hi I'm Nisha, a senior at Conant High School. I previously attended Girls Who Code and I am actively involved in the computer science community at my school.</p>
+        <a href="https://twitter.com/nishpant" target="_blank" class="little"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/nishapant" target="_blank" class="little"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/nishapant/" target="_blank" class="little"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:nisha007pant@gmail.com" class="little"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <a href="resources/nisharesume.pdf" target="_blank" class="little"><i class="fas fa-file"></i></a>
+      </div>
+      <div id="menu">
+        <i class="fas fa-circle"></i>
+        <i class="far fa-circle"></i>
+      </div>
+  </div>
+  <div id="about">
+    <h1 id="project">Portfolio</h1>
+    <a href="https://github.com/nishapant/mathTeam" class="nodec">
+    <div id="mathTeam" onclick="showprofile('mathteam')">
+      <i class="fas fa-divide"></i>
+    </div></a>
 
-            </p>
-            <br>
+    <a href="https://github.com/nishapant/glopalv3" class="nodec">
+    <div id="glopal" onclick="showprofile('glopal')">
+      <i class="fas fa-leaf"></i>
+    </div></a>
+
+    <a href="https://github.com/nishapant/glopalv3" class="nodec">
+    <div id="runsilo" onclick="showprofile('runsilo')">
+      <i class="fas fa-heartbeat"></i>
+    </div></a>
+    <br>
+    <a href="https://github.com/nishapant/Calculator" class="nodec">
+    <div id="calculator" onclick="showprofile('calculator')">
+      <i class="fas fa-calculator"></i>
+    </div></a>
+    <a href="https://github.com/nishapant/RockPaperScissors" class="nodec">
+    <div id="rockpaperscissors" onclick="showprofile('rockpaperscissors')">
+      <i class="fas fa-hand-scissors"></i>
     </div>
+    </a>
+    <a href="https://github.com/nishapant/Bluetooth-Chat" class="nodec">
+    <div id="bluetooth" onclick="showprofile('bluetooth')">
+      <i class="fab fa-bluetooth-b"></i>
+    </div>
+  </a>
+
+    <div id="menu2">
+      <i class="far fa-circle"></i>
+      <i class="fas fa-circle"></i>
+    </div>
+  </div>
 </body>
 </html>

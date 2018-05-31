@@ -1,176 +1,180 @@
-#name{
-    font-weight: lighter;
-    margin-bottom:7%;
-    letter-spacing: 1px;
-    font-size: 45px;
-    font-family: 'Muli', sans-serif;
-}
-
-#biography{
-    font-weight: lighter;
-    font-size: 18px;
-    line-height: 200%;
-    margin-top: -2%;
-    font-family: 'Roboto', sans-serif;
-}
-
-.information{
-    margin:10% 10% 10% 0;
-    width: 40%;
-    float: right;
-    font-family: 'Muli', sans-serif;
-
-}
-
-.button{
-    font-family: 'Muli', sans-serif;
-    border-bottom: solid #9999FF 1px;
-    font-size: 20px;
-    padding: 15px;
-    margin:10px 10px 10px 0;
-    color:#9999FF;
-
-}
-
-#icon{
-    font-size: 30px;
-    letter-spacing: 27px;
-    color: #9999FF;
-    text-align: center;
-}
-
-a{
-    text-decoration: none !important;
-    color: #9999FF !important;
-
-}
-
-.underline{
-    border-bottom: solid 1px #9999FF;
-    padding-bottom: 3px;
-}
-
 body{
-    color: black;
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
-
+  margin: 0;
+  padding: 0;
+    -webkit-filter: grayscale(0%);
+}
+#header{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: url("resources/china.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
+button{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500 !important;
+  letter-spacing: 15px;
+  font-size: 4em !important;
+  border: none;
+  text-decoration: none;
+  background: none;
+  color: white;
+  padding-bottom: 5px;
+  border-bottom: 5px white solid;
+  margin-top: 18% !important;
+}
+
+#hey{
+  font-size: 1.25em !important;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 1px;
+  width: 60%;
+  margin: 30px auto 20px;
+  line-height: 2.0;
+
+}
 .little{
-    color:#9999FF;
+  font-size: 1.5em !important;
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 20px;
+  width: 60%;
+  line-height: 2.0;
+  color: white;
+}
+.little:hover{
+  color: lightblue;
 }
 
-#image{
-    float: left;
-    width:40%;
-}
+#about{
+  padding: 0 !important;
+  background-color: #efebdc;
+  text-align: center;
+  height: 100vh;
+  display: block;
 
-#headshot{
-    margin-top: 8%;
-    margin-left: 15%;
-    position: absolute;
-    height: 65%;
-    opacity: 0.8;
-}
-
-
-a:hover{
-    color: #746CC0 !important;
-}
-
-.underline:hover{
-    border-bottom: solid 1px #746CC0;
-}
-@media all and (max-width: 1690px) {
 
 }
-@media all and (max-width: 1370px) {
-  #headshot{
-    margin-left: 7%;
-  }
-
-}
-@media all and (max-width: 1280px) and (orientation: portrait){
-  #image{
-    display: none;
-  }
-  .information{
-    margin: 80px auto;
-    float: none;
-    width: 70%;
-    font-size: 50px;
-  }
-
-}
-@media all and (max-width: 1000px) {
-  #headshot{
-    margin-left: 7%;
-  }
-
-}
-@media all and (max-width: 850px){
-  #headshot{
-    margin-left: 5%;
-  }
-
+#menu{
+  color: white;
+  margin-top: 13%;
+  letter-spacing: 5px;
 }
 
-@media all and (max-width: 850px) and (orientation: portrait) {
-  #image{
-    display: none;
-  }
-  .information{
-    margin: 60px auto;
-    float: none;
-    width: 70%;
-    font-size: 30px;
-  }
-
+#menu2{
+  color: black	;
+  letter-spacing: 5px;
+  margin-top: 7.3%;
 }
-@media all and (max-width: 736px) {
-  #image{
-    display: none;
-  }
-  .information{
-    margin: 60px auto;
-    float: none;
-    width: 72%;
-  }
 
-  #icon{
-    letter-spacing: 17px;
-    font-size: 27px;
-  }
-
+#mathTeam{
+  background-color: #FFB90F;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 76px;
+  padding-left: 76px;
+  border-radius: 100px;
+  font-size: 50px;
+  opacity: 0.85;
+  margin: 20px;
 }
-@media all and (max-width: 480px) {
-  #image{
-    display: none;
-  }
-  .information{
-    width: 72%;
-    float: none;
-    margin: 10% auto;
-  }
-  #icon{
-    letter-spacing: 17px;
-    font-size: 27px;
-  }
+#glopal{
+  background-color: #84BE6A;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 71px;
+  padding-left: 71px;
+  border-radius: 100px;
+  font-size: 50px;
+  opacity: 0.85;
+  margin: 20px;
+  -webkit-filter: grayscale(0%);
+}
 
-  @media all and (max-width: 350px) {
-    #image{
-      display: none;
-    }
-    .information{
-      width: 75%;
-      float: none;
-      margin: 10% auto;
-    }
-    #icon{
-      letter-spacing: 17px;
-      font-size: 27px;
-    }
-
+#runsilo{
+  background-color: #C67171;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 75px;
+  padding-left: 75px;
+  border-radius: 100px;
+  font-size: 50px;
+  opacity: 0.85;
+  margin: 20px;
+}
+#calculator{
+  background-color: #754C78;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 78px;
+  padding-left: 78px;
+  border-radius: 100px;
+  font-size: 50px;
+  opacity: 0.85;
+  margin: 20px;
+}
+#rockpaperscissors{
+  background-color: #EE7942;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 75px;
+  padding-left: 75px;
+  border-radius: 100px;
+  font-size: 50px;
+  opacity: 0.85;
+  margin: 20px;
+}
+#bluetooth{
+  background-color: #1874CD;
+  display: inline-block;
+  padding-top: 58px;
+  padding-bottom: 58px;
+  padding-right: 80px;
+  padding-left: 80px;
+  border-radius: 100px;
+  font-size: 50px;
+  opacity: 0.85;
+  margin: 30px;
+}
+#rockpaperscissors:hover{
+  opacity: 1;
+}
+#bluetooth:hover{
+  opacity: 1;
+}
+#calculator:hover{
+  opacity: 1;
+}
+#mathTeam:hover{
+  opacity: 1;
+}
+#runsilo:hover{
+  opacity: 1;
+}
+#glopal:hover{
+  opacity: 1;
+}
+#project{
+  font-family: 'Roboto', serif;
+  font-weight: 300;
+  padding: 45px;
+  font-size: 30px !important;
+}
+.nodec{
+  text-decoration: none;
+  color: black !important;
 }
