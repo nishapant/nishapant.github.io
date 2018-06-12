@@ -1,69 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="resources/picture.png">
     <title>Nisha Pant</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=9,10,11" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!--CSS-->
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500" rel="stylesheet">
+    <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="script.js"> </script>
+
 </head>
 <body>
-  <div id="header">
-      <div id="name">
-        <button>NISHA PANT</button>
-        <p id="hey">Hi I'm Nisha, a senior at Conant High School. I previously attended Girls Who Code and I am actively involved in the computer science community at my school.</p>
-        <a href="https://twitter.com/nishpant" target="_blank" class="little"><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/nishapant" target="_blank" class="little"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/nishapant/" target="_blank" class="little"><i class="fab fa-linkedin-in"></i></a>
-        <a href="mailto:nisha007pant@gmail.com" class="little"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-        <a href="resources/nisharesume.pdf" target="_blank" class="little"><i class="fas fa-file"></i></a>
+<div id="wrapper">
+  <div id="border-bottom">
+    <img src="resources/nisha.jpg" id="face">
+    <p id="name">Nisha Pant</p>
+    <p id="intro">Hi I'm Nisha, a senior at Conant High School. I previously attended Girls Who Code and I am actively involved in the computer science community at my school.</p>
+    <div id="info">
+      <h4>Projects</h4>
+      <div>
+      <a href="https://github.com/nishapant/mathTeam" class="nodec" id="mathTeam">
+      <div onclick="showprofile('mathteam')">
+        <i class="fas fa-divide"></i>
+      </div></a>
+      <a href="https://github.com/nishapant/glopalv3" class="nodec" id="glopal">
+      <div  onclick="showprofile('glopal')">
+        <i class="fas fa-leaf"></i>
+      </div></a>
+      <a href="https://github.com/nishapant/glopalv3" class="nodec" id="runsilo">
+      <div  onclick="showprofile('runsilo')">
+        <i class="fas fa-heartbeat"></i>
+      </div></a>
+      <br>
+      <a href="https://github.com/nishapant/Calculator" class="nodec" id="calculator">
+      <div  onclick="showprofile('calculator')">
+        <i class="fas fa-calculator"></i>
+      </div></a>
+      <a href="https://github.com/nishapant/RockPaperScissors" class="nodec" id="rockpaperscissors">
+      <div  onclick="showprofile('rockpaperscissors')">
+        <i class="fas fa-hand-scissors"></i>
       </div>
-      <div id="menu">
-        <i class="fas fa-circle"></i>
-        <i class="far fa-circle"></i>
+      </a>
+      <a href="https://github.com/nishapant/Bluetooth-Chat" class="nodec" id="bluetooth">
+      <div  onclick="showprofile('bluetooth')">
+        <i class="fab fa-bluetooth-b"></i>
       </div>
-  </div>
-  <div id="about">
-    <h1 id="project">Portfolio</h1>
-    <a href="https://github.com/nishapant/mathTeam" class="nodec">
-    <div id="mathTeam" onclick="showprofile('mathteam')">
-      <i class="fas fa-divide"></i>
-    </div></a>
-
-    <a href="https://github.com/nishapant/glopalv3" class="nodec">
-    <div id="glopal" onclick="showprofile('glopal')">
-      <i class="fas fa-leaf"></i>
-    </div></a>
-
-    <a href="https://github.com/nishapant/glopalv3" class="nodec">
-    <div id="runsilo" onclick="showprofile('runsilo')">
-      <i class="fas fa-heartbeat"></i>
-    </div></a>
-    <br>
-    <a href="https://github.com/nishapant/Calculator" class="nodec">
-    <div id="calculator" onclick="showprofile('calculator')">
-      <i class="fas fa-calculator"></i>
-    </div></a>
-    <a href="https://github.com/nishapant/RockPaperScissors" class="nodec">
-    <div id="rockpaperscissors" onclick="showprofile('rockpaperscissors')">
-      <i class="fas fa-hand-scissors"></i>
-    </div>
     </a>
-    <a href="https://github.com/nishapant/Bluetooth-Chat" class="nodec">
-    <div id="bluetooth" onclick="showprofile('bluetooth')">
-      <i class="fab fa-bluetooth-b"></i>
-    </div>
-  </a>
 
-    <div id="menu2">
-      <i class="far fa-circle"></i>
-      <i class="fas fa-circle"></i>
+    <h4>Activites and Clubs</h4>
+    <ul>
+        <li>Co-Founder at  <a href="#" class="work">CompSci Kids</a></li>
+        <li>Student at <a href="https://girlswhocode.com/" class="work">Girls Who Code</a></li>
+        <li><a href="https://www.nhs.us/" class="work">National Honors Society</a></li>
+        <li>State-Qualifier at <a href="http://www.bpa.org/" class="work">Business Professionals of America</a></li>
+        <li>Cross Country and Track Athlete</li>
+        <li>Cultural Awareness</li>
+        <li><a href="https://adc.d211.org/academics-home/gems/" class="work">Girls in Engineering, Math, and Science</a> Volunteer</li>
+    </ul>
     </div>
   </div>
+</div>
+  <p id="footerLeft">
+    <a href="https://www.linkedin.com/in/nishapant/" class="little"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/nishapant" class="little" class="github"><i class="fab fa-github"></i></a>
+    <a href="mailto:nishakpant@gmail.com" class="little"><i class="fa fa-envelope" aria-hidden="true" class="github"></i></a>
+  </p>
+  <p id="footerRight">
+    <span class="location"><i class="fa fa-map-marker"></i></span>Chicago, IL
+  </p>
+</div>
 </body>
 </html>

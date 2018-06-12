@@ -1,180 +1,154 @@
+#name{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+}
+#wrapper{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+#border-bottom{
+    border-bottom: #A8A8A8 dotted 1px;
+    padding-bottom: 20px;
+}
+#footerLeft{
+    color:#A8A8A8;
+    float: left;
+    font-size: 15px;
+}
+#footerRight{
+    color:#A8A8A8;
+    float: right;
+    font-size: 15px;
+}
 body{
-  margin: 0;
-  padding: 0;
-    -webkit-filter: grayscale(0%);
+    font-family: 'Roboto', sans-serif;
 }
-#header{
-  width: 100vw;
-  height: 100vh;
-  text-align: center;
-  background: url("resources/china.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0 !important;
-  padding: 0 !important;
+.links{
+    text-decoration: none;
+    color: #A8A8A8;
+    margin-right: 8px;
+    display: inline-block;
+    line-height: 0.9;
+    border-bottom: 1px solid;
 }
-
-button{
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-weight: 500 !important;
-  letter-spacing: 15px;
-  font-size: 4em !important;
-  border: none;
-  text-decoration: none;
-  background: none;
-  color: white;
-  padding-bottom: 5px;
-  border-bottom: 5px white solid;
-  margin-top: 18% !important;
+.links:hover{
+    color: black;
 }
+#intro{
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+h4{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.work{
+    text-decoration: none;
+    color: #3299CC;
+    display: inline-block;
+    line-height: 0.9;
 
-#hey{
-  font-size: 1.25em !important;
-  font-family: 'Roboto', serif;
-  font-weight: 300;
-  color: white;
-  letter-spacing: 1px;
-  width: 60%;
-  margin: 30px auto 20px;
-  line-height: 2.0;
-
+}
+.work:hover{
+    color: #236B8E;
+    border-bottom: 1px solid;
+}
+.years{
+    color: #aaa;
+}
+li{
+    margin: 20px 0 8px 0;
+    line-height: 1.5;
+}
+#face{
+  margin-top: 10vh;
+  width: 80%;
+  opacity: .8;
+}
+#info{
+  text-align: left;
 }
 .little{
-  font-size: 1.5em !important;
-  font-family: 'Roboto', serif;
+  font-size: 1.4em !important;
   font-weight: 300;
-  color: white;
-  letter-spacing: 20px;
+  letter-spacing: 10px;
   width: 60%;
   line-height: 2.0;
-  color: white;
+  color: #A8A8A8;
+  margin-left: 20px;
+  margin-bottom: 35px;
+  margin-top: 35px;
 }
 .little:hover{
-  color: lightblue;
+  color: 	#383838;
 }
-
-#about{
-  padding: 0 !important;
-  background-color: #efebdc;
+.github{
+  font-size: 1.3em !important;
+}
+.title{
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.nodec{
+  text-decoration: none;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 75px;
+  padding-left: 75px;
+  width: 5%;
+  height:2%;
+  display: inline-block;
   text-align: center;
-  height: 100vh;
-  display: block;
-
-
+  margin-top: 30px;
+  margin-left: 5%;
+  margin-right: 4%;
+  font-size: 1.7em;
 }
-#menu{
-  color: white;
-  margin-top: 13%;
-  letter-spacing: 5px;
-}
-
-#menu2{
-  color: black	;
-  letter-spacing: 5px;
-  margin-top: 7.3%;
-}
-
 #mathTeam{
   background-color: #FFB90F;
-  display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 76px;
-  padding-left: 76px;
-  border-radius: 100px;
-  font-size: 50px;
-  opacity: 0.85;
-  margin: 20px;
+  opacity: 0.7;
 }
 #glopal{
   background-color: #84BE6A;
-  display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 71px;
-  padding-left: 71px;
-  border-radius: 100px;
-  font-size: 50px;
-  opacity: 0.85;
-  margin: 20px;
-  -webkit-filter: grayscale(0%);
+  opacity: 0.7;
 }
 
 #runsilo{
   background-color: #C67171;
-  display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 75px;
-  padding-left: 75px;
-  border-radius: 100px;
-  font-size: 50px;
-  opacity: 0.85;
-  margin: 20px;
+  opacity: 0.7;
 }
 #calculator{
   background-color: #754C78;
-  display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 78px;
-  padding-left: 78px;
-  border-radius: 100px;
-  font-size: 50px;
-  opacity: 0.85;
-  margin: 20px;
+  opacity: 0.7;
 }
 #rockpaperscissors{
   background-color: #EE7942;
-  display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 75px;
-  padding-left: 75px;
-  border-radius: 100px;
-  font-size: 50px;
-  opacity: 0.85;
-  margin: 20px;
+  opacity: 0.7;
 }
 #bluetooth{
   background-color: #1874CD;
-  display: inline-block;
-  padding-top: 58px;
-  padding-bottom: 58px;
-  padding-right: 80px;
-  padding-left: 80px;
-  border-radius: 100px;
-  font-size: 50px;
-  opacity: 0.85;
-  margin: 30px;
+  opacity: 0.7;
 }
-#rockpaperscissors:hover{
-  opacity: 1;
-}
-#bluetooth:hover{
-  opacity: 1;
-}
-#calculator:hover{
-  opacity: 1;
-}
-#mathTeam:hover{
-  opacity: 1;
-}
-#runsilo:hover{
-  opacity: 1;
-}
-#glopal:hover{
-  opacity: 1;
-}
-#project{
-  font-family: 'Roboto', serif;
+.location{
+  font-size: 1.2em !important;
   font-weight: 300;
-  padding: 45px;
-  font-size: 30px !important;
+  letter-spacing: 10px;
+  width: 60%;
+  line-height: 2.0;
+  color: black;
+  margin-right: 5px;
+  margin-left: 20px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+    color:#A8A8A8;
 }
-.nodec{
-  text-decoration: none;
-  color: black !important;
+.caption{
+  display: inline-block;
 }
