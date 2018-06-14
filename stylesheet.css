@@ -55,11 +55,14 @@ h4{
     color: #3299CC;
     display: inline-block;
     line-height: 0.9;
+      border-bottom: 1px dotted;
 
 }
 .work:hover{
-    color: #236B8E;
-    border-bottom: 0.5px solid;
+  text-decoration: none;
+    color: #225872;
+    border-bottom: 1px dotted #225872;
+
 }
 .years{
     color: #aaa;
@@ -157,4 +160,11 @@ li{
 }
 .caption{
   display: inline-block;
+}
+::-moz-selection { /* Code for Firefox */
+    background: #84cc84;
+}
+
+::selection {
+    background: #84cc84;
 }
