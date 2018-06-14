@@ -161,10 +161,3 @@ li{
 .caption{
   display: inline-block;
 }
-::-moz-selection { /* Code for Firefox */
-    background: #84cc84;
-}
-
-::selection {
-    background: #84cc84;
-}
