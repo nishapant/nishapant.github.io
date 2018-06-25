@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 #border-bottom{
-    border-bottom: #A8A8A8 dotted 1px;
+    border-bottom: #FBCEB1 dotted 1px;
     padding-bottom: 20px !important;
     margin-bottom: 30px !important;
 }
@@ -29,7 +29,7 @@ body{
 }
 a.links{
     text-decoration: none;
-    color: #A8A8A8;
+    color: #FBCEB1;
     font-size: 20px;
     margin-right: 8px;
     display: inline-block;
