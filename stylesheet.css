@@ -9,6 +9,12 @@
     text-align: center;
     margin: 0 auto;
 }
+#wrapper2{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+
+}
 #border-bottom{
     border-bottom: #A8A8A8 dotted 1px;
     padding-bottom: 20px !important;
@@ -74,7 +80,7 @@ li{
 #face{
   margin-top: 10vh;
   width: 75%;
-  opacity: .8;
+  opacity: 0.8;
 }
 #info{
   text-align: left;
@@ -160,4 +166,17 @@ li{
 }
 .caption{
   display: inline-block;
+}
+.gallerypictures{
+  width: 32%;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+.cap{
+  margin-top: 10px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 0.8em;
+}
+.individuals{
+  width: 80%;
 }
