@@ -4,10 +4,16 @@
     margin-bottom: 0;
     margin-top: 20px;
 }
-#wrapper{
-    width: 60%;
+
+#pictureDiv{
     text-align: center;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+#aboutMe{
+    text-align: center;
+    max-width: 67em;
 }
 #wrapper2{
     width: 90%;
@@ -28,6 +34,7 @@
 #footerRight{
     color:#A8A8A8;
     float: right;
+    margin-right: 3%;
     font-size: 15px;
 }
 body{
@@ -58,7 +65,7 @@ h4{
 }
 .work{
     text-decoration: none;
-    color: #f9b081;
+    color: #2176AE;
     display: inline-block;
     line-height: 0.9;
       border-bottom: 1px dotted;
@@ -66,8 +73,8 @@ h4{
 }
 .work:hover{
   text-decoration: none;
-    color: #f2833c;
-    border-bottom: 1px dotted #f2833c;
+    color: #0d4a73;
+    border-bottom: 1px solid #0d4a73;
 
 }
 .years{
@@ -78,15 +85,14 @@ li{
     line-height: 1.5;
 }
 #face{
-  margin-top: 10vh;
-  width: 75%;
-  opacity: 0.8;
+    margin-top: 6vh;
+    width: 30em;
 }
 #info{
   text-align: left;
 }
 .little{
-  font-size: 25px !important;
+  font-size: 1.4em !important;
   font-weight: 300;
   letter-spacing: 10px;
   width: 60%;
@@ -127,42 +133,14 @@ li{
   opacity: .9 !important;
   color: black !important;
 }
-#mathTeam{
-  background-color: #FFB90F;
-}
-#glopal{
-  background-color: #84BE6A;
-
-}
-
-#runsilo{
-  background-color: #C67171;
-
-}
-#calculator{
-  background-color: #754C78;
-
-}
-#rockpaperscissors{
-  background-color: #EE7942;
-
-}
-#bluetooth{
-  background-color: #1874CD;
-
-}
 .location{
-  font-size: 1.2em !important;
-  font-weight: 300;
-  letter-spacing: 10px;
-  width: 60%;
-  line-height: 2.0;
-  color: black;
-  margin-right: 5px;
-  margin-left: 20px;
-  margin-bottom: 35px;
-  margin-top: 35px;
-  color:#A8A8A8;
+    font-size: 1.2em !important;
+    font-weight: 300;
+    letter-spacing: 10px;
+    width: 60%;
+    line-height: 2.0;
+    color: #A8A8A8;
+    margin: 80px 5px 35px 20px;
 }
 .caption{
   display: inline-block;
@@ -179,4 +157,46 @@ li{
 }
 .individuals{
   width: 80%;
+}
+hr {
+    border: none;
+    margin: 15px !important;
+    padding: 0 !important;
+    height: 1px !important;
+    /* Set the hr color */
+    color: #A8A8A8;
+    background-color: #A8A8A8;
+}
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.videoPlayers{
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.projectTitle{
+    font-size: 1.6em;
+}
+
+.project{
+    text-align: left !important;
+    max-width: 55em;
+    margin-bottom: 35px;
+    padding: 15px;
+    /*border: black 1px dotted;*/
+    line-height: 1.8;
+}
+
+.projectImage{
+    width: 35em;
+    margin-top: 0em;
+}
+
+.projectImageDiv{
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
