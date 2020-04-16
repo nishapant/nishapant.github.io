@@ -16,7 +16,7 @@
     max-width: 67em;
 }
 #wrapper2{
-    width: 90%;
+    width: 75%;
     text-align: center;
     margin: 0 auto;
 
@@ -156,7 +156,6 @@ li{
   font-size: 0.8em;
 }
 .individuals{
-  width: 100%;
   max-width: 17em;
 }
 hr {
