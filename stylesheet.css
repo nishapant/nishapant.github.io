@@ -156,7 +156,8 @@ li{
   font-size: 0.8em;
 }
 .individuals{
-  width: 80%;
+  width: 100%;
+  max-width: 17em;
 }
 hr {
     border: none;
@@ -199,4 +200,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+#wrapper {
+  margin: 10px;
 }
