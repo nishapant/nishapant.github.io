@@ -204,3 +204,21 @@ body {
 #wrapper {
   margin: 10px;
 }
+
+#wrapper3 {
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+.list-group-item{
+  margin: 0;
+  text-align: left;
+}
+
+.center {
+  margin: 50px auto;
+}
+
+.marginLess {
+  margin-top: -80px;
+}
