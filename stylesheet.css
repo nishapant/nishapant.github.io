@@ -206,7 +206,8 @@ body {
 }
 
 #wrapper3 {
-  width: 75%;
+  width: 95%;
+  max-width: 1000px;
   margin-bottom: 50px;
 }
 
