@@ -195,6 +195,11 @@ body {
     margin-top: 0em;
 }
 
+.projectImageSmall {
+  width: 15em;
+  margin-top: 0em;
+}
+
 .projectImageDiv{
     text-align: center;
     margin: 0;
