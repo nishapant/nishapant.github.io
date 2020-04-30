@@ -1,5 +1,5 @@
 #name{
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 0;
     margin-top: 20px;
@@ -57,6 +57,12 @@ a.links{
     font-size: 18px;
     line-height: 1.8;
 }
+
+.subHeading {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+}
 h4{
     font-size: 30px;
     font-weight: 300;
@@ -86,7 +92,7 @@ li{
 }
 #face{
     margin-top: 6vh;
-    width: 25em;
+    width: 23em;
 }
 #info{
   text-align: left;
@@ -145,6 +151,7 @@ li{
 .caption{
   display: inline-block;
 }
+
 .gallerypictures{
   width: 32%;
   display: inline-block;
@@ -227,4 +234,11 @@ body {
 
 .marginLess {
   margin-top: -80px;
+}
+
+.heading {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 20px;
 }
