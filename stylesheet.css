@@ -3,6 +3,7 @@
     text-align: center;
     margin-bottom: 0;
     margin-top: 20px;
+    font-weight: bolder;
 }
 
 #pictureDiv{
@@ -207,6 +208,11 @@ body {
   margin-top: 0em;
 }
 
+.projectImageLarge {
+  width: 25em;
+  margin-top: 0em;
+}
+
 .projectImageDiv{
     text-align: center;
     margin: 0;
@@ -241,4 +247,14 @@ body {
     text-align: center;
     margin-bottom: 0;
     margin-top: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.marginTopPic {
+  margin-top: 20px;
+}
+
+.border {
+  border: 2px solid black;
 }
