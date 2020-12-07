@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.75f247b9.chunk.css",
-    "main.js": "/static/js/main.bc6e0f99.chunk.js",
-    "main.js.map": "/static/js/main.bc6e0f99.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b329dedb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b329dedb.js.map",
-    "static/css/2.44309f2b.chunk.css": "/static/css/2.44309f2b.chunk.css",
-    "static/js/2.76bbe83a.chunk.js": "/static/js/2.76bbe83a.chunk.js",
-    "static/js/2.76bbe83a.chunk.js.map": "/static/js/2.76bbe83a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7824d63706bbda3a9399bf7ae53e62a6.js": "/precache-manifest.7824d63706bbda3a9399bf7ae53e62a6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.44309f2b.chunk.css.map": "/static/css/2.44309f2b.chunk.css.map",
-    "static/css/main.75f247b9.chunk.css.map": "/static/css/main.75f247b9.chunk.css.map",
-    "static/js/2.76bbe83a.chunk.js.LICENSE.txt": "/static/js/2.76bbe83a.chunk.js.LICENSE.txt"
+    "main.css": "/nishapant.github.io/static/css/main.75f247b9.chunk.css",
+    "main.js": "/nishapant.github.io/static/js/main.c10169d9.chunk.js",
+    "main.js.map": "/nishapant.github.io/static/js/main.c10169d9.chunk.js.map",
+    "runtime-main.js": "/nishapant.github.io/static/js/runtime-main.e317768d.js",
+    "runtime-main.js.map": "/nishapant.github.io/static/js/runtime-main.e317768d.js.map",
+    "static/css/2.44309f2b.chunk.css": "/nishapant.github.io/static/css/2.44309f2b.chunk.css",
+    "static/js/2.91553170.chunk.js": "/nishapant.github.io/static/js/2.91553170.chunk.js",
+    "static/js/2.91553170.chunk.js.map": "/nishapant.github.io/static/js/2.91553170.chunk.js.map",
+    "index.html": "/nishapant.github.io/index.html",
+    "precache-manifest.db20488af12a39b3a339a7594b0bb533.js": "/nishapant.github.io/precache-manifest.db20488af12a39b3a339a7594b0bb533.js",
+    "service-worker.js": "/nishapant.github.io/service-worker.js",
+    "static/css/2.44309f2b.chunk.css.map": "/nishapant.github.io/static/css/2.44309f2b.chunk.css.map",
+    "static/css/main.75f247b9.chunk.css.map": "/nishapant.github.io/static/css/main.75f247b9.chunk.css.map",
+    "static/js/2.91553170.chunk.js.LICENSE.txt": "/nishapant.github.io/static/js/2.91553170.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b329dedb.js",
+    "static/js/runtime-main.e317768d.js",
     "static/css/2.44309f2b.chunk.css",
-    "static/js/2.76bbe83a.chunk.js",
+    "static/js/2.91553170.chunk.js",
     "static/css/main.75f247b9.chunk.css",
-    "static/js/main.bc6e0f99.chunk.js"
+    "static/js/main.c10169d9.chunk.js"
   ]
 }
