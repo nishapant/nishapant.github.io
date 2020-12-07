@@ -1,0 +1,34 @@
+.link {
+    color: #A63C06 !important;
+    text-decoration: underline !important;
+}
+
+.cardTitle {
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+.link-2 {
+    color: #728bfa !important;
+    text-decoration: none !important;
+    margin-right: 10px;
+}
+
+.artist {
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.album-title {
+    font-style: italic;
+    margin-left: 2px;
+}
+
+.year {
+    margin-left: 2px;
+}
+
+.background-grey {
+    background-color: rgb(230, 230, 230);
+    padding: 20px !important;
+}
