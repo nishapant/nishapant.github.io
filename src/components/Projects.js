@@ -65,9 +65,9 @@ class Projects extends React.Component {
                     Projects <span role="img" aria-label="girl-coding">👩🏽‍💻</span>
                 </Title>
                 <p>
-                    I first started programming in middle school during one of my robotics classes. I really enjoyed it and decided to get 
-                    involved with the CS community anyway I could. I participated in <a className="link" href="https://girlswhocode.com/">Girls Who Code</a> and 
-                    a series of different hackathons. Below are a few of the past leadership and technical projects I've worked on.
+                    I first started getting interested in computer science in high school, during a computer science course. Following that, I participated in <a className="link" href="https://girlswhocode.com/">Girls Who Code</a> and a series of different hackathons. Currently, I enjoy working in the 
+                    backend and have proficiency with Java, Ruby (+Rails), Python, and C++. Below are a few of the past leadership and 
+                    technical projects I've worked on.
                 </p>
                 <List
                     grid={{
