@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 import "./style/Index.css"
 
 import App from './components/App';
-import Projects from './components/projects.js';
+import Projects from './components/Projects.js';
 import Name from './components/Name';
 import NavigationBar from './components/NavigationBar.js';
 import NotFoundPage from './components/NotFoundPage.js'
