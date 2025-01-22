@@ -37,9 +37,10 @@ function Home() {
   }, []);
   return (
     <div className="flex flex-col justify-between h-screen">
-        <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15">
-          <div>projects</div>
-          <a href="/photos">photos</a>
+        <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15 font-azeret">
+          <a href="/projects" className="hover:underline hover:opacity-70">projects</a>
+          <a href="/writing" className="hover:underline hover:opacity-70">writing</a>
+          <a href="/photos" className="hover:underline hover:opacity-70">photos</a>
         </header>
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>
@@ -51,7 +52,7 @@ function Home() {
             currently engineering at modern treasury. interests include music, design & vintage clothing
           </div>
         </div>
-        <footer className="text-blue text-center p-10 font-bold flex justify-between items-center px-15">
+        <footer className="text-blue text-center p-10 font-bold flex justify-between items-center px-15 font-azeret">
           <div className="flex flex-row items-center"> 
             <img
               src={vinyl}
@@ -65,10 +66,10 @@ function Home() {
             </div>
           </div>
           <div className="flex flex-row gap-x-5">
-            <a href="https://github.com/nishapant">github</a>
-            <a href="https://twitter.com/nishpant">twitter</a>
-            <a href="https://on.soundcloud.com/aH8UhTznVxFqXgsr6">soundcloud</a>
-            <a href="https://www.linkedin.com/in/nishapant/">linkedin</a>
+            <a href="https://github.com/nishapant" className="hover:underline hover:opacity-70">github</a>
+            <a href="https://twitter.com/nishpant" className="hover:underline hover:opacity-70">twitter</a>
+            <a href="https://on.soundcloud.com/aH8UhTznVxFqXgsr6" className="hover:underline hover:opacity-70">soundcloud</a>
+            <a href="https://www.linkedin.com/in/nishapant/" className="hover:underline hover:opacity-70">linkedin</a>
           </div>
         </footer>
     </div>

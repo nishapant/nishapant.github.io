@@ -35,7 +35,7 @@ function LazyImage({ image }: { image: Image }) {
     
     <div className="relative w-full aspect-[4/3] bg-gray-200 flex items-center justify-center overflow-hidden">
       {!isLoaded && (
-       <div className="animate-pulse bg-gradient-to-r from-blue to-gray-400 h-full w-full absolute inset-0"></div>
+       <div className="animate-pulse bg-gradient-to-r from-blue to-gray-600 h-full w-full absolute inset-0"></div>
       )}
 
       <img
@@ -58,11 +58,11 @@ function Photos() {
       <header className="flex flex-row p-5 gap-x-5 justify-center text-magenta font-bold px-15 font-birthstone text-2xl">
         <a href="/">NP</a>
       </header>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 px-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 px-10 font-azeret">
         {images.map((image) => (
           <div>
             <LazyImage image={image} />
-            <p className="text-center font-bold mt-3">{image.caption}</p>
+            <p className="text-center font-bold mt-3 text-blue">{image.caption}</p>
           </div>
         ))}
       </div>
