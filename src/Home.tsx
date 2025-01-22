@@ -37,10 +37,10 @@ function Home() {
   }, []);
   return (
     <div className="flex flex-col justify-between h-screen">
-        {/* <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15">
+        <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15">
           <div>projects</div>
-          <div>photos</div>
-        </header> */}
+          <a href="/photos">photos</a>
+        </header>
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>
             <h1 className="text-magenta font-birthstone font-semibold text-[3.4em] tracking-widest">
