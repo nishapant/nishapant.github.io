@@ -59,10 +59,20 @@ function Home() {
               alt="spinning"
               className="w-20 h-20 animate-spin-slow"
             />
-            <div className="px-5 text-left">
+            <div className="px-5 text-left flex flex-col">
               <div>now listening to...</div>
-              {loading ? <LoadingBar /> : <div className="text-magenta">{track?.name}</div>}
-              {loading ? <LoadingBar /> : <div className="text-magenta">{track?.artist}</div>}
+              <a href={!loading && track ? track.url : "/"} target="_blank" rel="noreferrer" className="hover:underline hover:opacity-70">
+                {loading || !track ? <LoadingBar /> :
+                  <div className="text-magenta">
+                    {track.name}
+                  </div>
+                }
+                {loading || !track ? <LoadingBar /> :
+                  <div className="text-magenta">
+                    {track.artist}
+                  </div>
+                }
+              </a>
             </div>
           </div>
           <div className="flex flex-row gap-x-5">
