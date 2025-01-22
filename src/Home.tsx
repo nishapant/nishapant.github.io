@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import vinyl from "./vinyl.webp";
 import axios from "axios";
+import LoadingBar from "./LoadingBar";
 
 interface Track {
   name: string;
@@ -36,10 +37,10 @@ function Home() {
   }, []);
   return (
     <div className="flex flex-col justify-between h-screen">
-        <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15">
+        {/* <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15">
           <div>projects</div>
           <div>photos</div>
-        </header>
+        </header> */}
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>
             <h1 className="text-magenta font-birthstone font-semibold text-[3.4em] tracking-widest">
@@ -59,8 +60,8 @@ function Home() {
             />
             <div className="px-5 text-left">
               <div>now listening to...</div>
-              <div className="text-magenta">{track?.name}</div>
-              <div className="text-magenta">{track?.artist}</div>
+              {loading ? <LoadingBar /> : <div className="text-magenta">{track?.name}</div>}
+              {loading ? <LoadingBar /> : <div className="text-magenta">{track?.artist}</div>}
             </div>
           </div>
           <div className="flex flex-row gap-x-5">

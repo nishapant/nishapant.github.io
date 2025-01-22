@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       animation: {
         "spin-slow": "spin 2s linear infinite",
+        "loading": "loading 2s linear infinite"
       },
       colors: {
         "magenta": "#C1256C",
