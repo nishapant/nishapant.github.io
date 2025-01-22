@@ -8,6 +8,7 @@ interface Track {
   name: string;
   url: string;
   artist: string;
+  date: string;
 }
 
 function Home() {
@@ -24,7 +25,8 @@ function Home() {
         const track = {
           name: data.name,
           artist: data.artist["#text"],
-          url: data.url
+          url: data.url,
+          date: data.date.uts
         }
         setTrack(track);
       } catch (err) {
@@ -39,10 +41,10 @@ function Home() {
   return (
     <div className="flex flex-col justify-between h-screen">
         <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15 font-azeret">
-          <Link to="/projects" className="hover:underline hover:opacity-70">projects</Link>
-          <Link to="/writing" className="hover:underline hover:opacity-70">writing</Link>
+          {/* <Link to="/projects" className="hover:underline hover:opacity-70">projects</Link> */}
+          {/* <Link to="/writing" className="hover:underline hover:opacity-70">writing</Link> */}
           <Link to="/archive" className="hover:underline hover:opacity-70">archive</Link>
-          <Link to="/curations" className="hover:underline hover:opacity-70">curations</Link>
+          {/* <Link to="/curations" className="hover:underline hover:opacity-70">curations</Link> */}
         </header>
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>
@@ -82,6 +84,7 @@ function Home() {
             <a href="https://twitter.com/nishpant" className="hover:underline hover:opacity-70">twitter</a>
             <a href="https://on.soundcloud.com/aH8UhTznVxFqXgsr6" className="hover:underline hover:opacity-70">soundcloud</a>
             <a href="https://www.linkedin.com/in/nishapant/" className="hover:underline hover:opacity-70">linkedin</a>
+            <a href="https://www.cosmos.so/nishapant" className="hover:underline hover:opacity-70">cosmos</a>
           </div>
         </footer>
     </div>
