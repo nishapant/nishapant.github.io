@@ -1,7 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5acccc2e.css",
-    "main.js": "/static/js/main.bbcb3c3e.js",
+    "main.css": "/static/css/main.251c8b49.css",
+    "main.js": "/static/js/main.5401181b.js",
+    "static/media/ny.png": "/static/media/ny.4af4fa7b783fcb2217ba.png",
+    "static/media/nepal.png": "/static/media/nepal.34bcdfa163176d0b1969.png",
+    "static/media/swiss.png": "/static/media/swiss.fa532faa747a833a7eb3.png",
+    "static/media/kaytranada.png": "/static/media/kaytranada.81d2a0c8f1033b81a4e3.png",
+    "static/media/chisapani.png": "/static/media/chisapani.f61a3725932a815a57c9.png",
+    "static/media/sorrento.png": "/static/media/sorrento.4c7126b550fb77c29fd4.png",
+    "static/media/iceland.png": "/static/media/iceland.30b8e12d01825cc3513f.png",
+    "static/media/reykjavik.png": "/static/media/reykjavik.105580b817a61739bdef.png",
+    "static/media/paris.png": "/static/media/paris.595889f36f70c25ec20a.png",
+    "static/media/newport.png": "/static/media/newport.d7eb0eea383fb37babb6.png",
     "static/media/vinyl.webp": "/static/media/vinyl.d136b978ce0094c1e7a5.webp",
     "static/media/birthstone-bounce-latin-400-normal.woff2": "/static/media/birthstone-bounce-latin-400-normal.11aef34160101a750bdf.woff2",
     "static/media/birthstone-bounce-latin-ext-400-normal.woff2": "/static/media/birthstone-bounce-latin-ext-400-normal.3b1e1be9b1a3a6119e11.woff2",
@@ -12,11 +22,11 @@
     "static/media/birthstone-bounce-vietnamese-400-normal.woff2": "/static/media/birthstone-bounce-vietnamese-400-normal.3ee4683d8b5803ec9860.woff2",
     "static/media/birthstone-bounce-vietnamese-400-normal.woff": "/static/media/birthstone-bounce-vietnamese-400-normal.3bfb64f1e7a6f092158b.woff",
     "index.html": "/index.html",
-    "main.5acccc2e.css.map": "/static/css/main.5acccc2e.css.map",
-    "main.bbcb3c3e.js.map": "/static/js/main.bbcb3c3e.js.map"
+    "main.251c8b49.css.map": "/static/css/main.251c8b49.css.map",
+    "main.5401181b.js.map": "/static/js/main.5401181b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5acccc2e.css",
-    "static/js/main.bbcb3c3e.js"
+    "static/css/main.251c8b49.css",
+    "static/js/main.5401181b.js"
   ]
 }
