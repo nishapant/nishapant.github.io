@@ -13,27 +13,27 @@ import swiss from "./photos/swiss.png";
 interface Image {
   src: string;
   caption: string;
+  date: string;
 }
 
 const images : Image[] = [
-  { src: nepal, caption: "tanahun, nepal"},
-  { src: newport, caption: "newport, rhode island" },
-  { src: chisapani, caption: "chisapani, nepal" },
-  { src: paris, caption: "paris, france" },
-  { src: ny, caption: "new york, new york" },
-  { src: iceland, caption: "reykjavík, iceland"},
-  { src: sorrento, caption: "sorrento, italy" },
-  { src: kaytranada, caption: "new york, new york" },
-  { src: swiss, caption: "st. moritz, switzerland" },
-  { src: reykjavik, caption: "reykjavík, iceland" }
+  { src: nepal, caption: "tanahun, nepal", date: "march 2024"},
+  { src: newport, caption: "newport, rhode island", date: "may 2024" },
+  { src: chisapani, caption: "chisapani, nepal", date: "march 2024" },
+  { src: paris, caption: "paris, france", date: "may 2024" },
+  { src: ny, caption: "new york, new york", date: "feb 2024" },
+  { src: iceland, caption: "reykjavík, iceland", date: "june 2023"},
+  { src: sorrento, caption: "sorrento, italy", date: "june 2023" },
+  { src: kaytranada, caption: "new york, new york", date: "sept 2022" },
+  { src: swiss, caption: "st. moritz, switzerland", date: "dec 2024" },
+  { src: reykjavik, caption: "reykjavík, iceland", date: "june 2023" }
 ];
 
 function LazyImage({ image }: { image: Image }) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    
-    <div className="relative w-full aspect-[4/3] bg-gray-200 flex items-center justify-center overflow-hidden">
+    <div className="relative w-full aspect-[4/3] bg-gray-200 flex items-center justify-center overflow-hidden group">
       {!isLoaded && (
        <div className="animate-pulse bg-gradient-to-r from-blue to-gray-600 h-full w-full absolute inset-0"></div>
       )}
@@ -44,10 +44,15 @@ function LazyImage({ image }: { image: Image }) {
         loading="lazy"
         className={`w-full h-full object-cover transition-opacity duration-500 ease-in-out ${
           isLoaded ? "opacity-100" : "opacity-0"
-        }`}
+        } group-hover:opacity-75`}
         onLoad={() => setIsLoaded(true)}
         onError={() => setIsLoaded(true)}
       />
+      {isLoaded && (
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {image.date}
+        </div>
+      )}
     </div>
   );
 };

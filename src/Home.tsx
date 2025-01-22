@@ -40,7 +40,7 @@ function Home() {
         <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15 font-azeret">
           <a href="/projects" className="hover:underline hover:opacity-70">projects</a>
           <a href="/writing" className="hover:underline hover:opacity-70">writing</a>
-          <a href="/photos" className="hover:underline hover:opacity-70">archive</a>
+          <a href="/archive" className="hover:underline hover:opacity-70">archive</a>
         </header>
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>
