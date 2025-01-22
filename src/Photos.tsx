@@ -9,6 +9,7 @@ import nepal from "./photos/nepal.png";
 import chisapani from "./photos/chisapani.png";
 import reykjavik from "./photos/reykjavik.png";
 import swiss from "./photos/swiss.png";
+import { Link } from "react-router-dom";
 
 interface Image {
   src: string;
@@ -61,7 +62,7 @@ function Photos() {
   return (
     <div>
       <header className="flex flex-row p-5 gap-x-5 justify-center text-magenta font-bold px-15 font-birthstone text-2xl">
-        <a href="/">NP</a>
+        <Link to="/">NP</Link>
       </header>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 px-10 font-azeret">
         {images.map((image) => (

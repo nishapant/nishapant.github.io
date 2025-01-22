@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Projects() {
+function Curations() {
   return (
     <div>
       <header className="flex flex-row p-5 gap-x-5 justify-center text-magenta font-bold px-15 font-birthstone text-2xl">
@@ -11,4 +11,4 @@ function Projects() {
   )
 }
 
-export default Projects;
+export default Curations;

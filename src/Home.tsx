@@ -42,6 +42,7 @@ function Home() {
           <Link to="/projects" className="hover:underline hover:opacity-70">projects</Link>
           <Link to="/writing" className="hover:underline hover:opacity-70">writing</Link>
           <Link to="/archive" className="hover:underline hover:opacity-70">archive</Link>
+          <Link to="/curations" className="hover:underline hover:opacity-70">curations</Link>
         </header>
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>

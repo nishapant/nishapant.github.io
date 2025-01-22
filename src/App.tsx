@@ -4,7 +4,7 @@ import Home from "./Home";
 import Photos from "./Photos";
 import Projects from "./Projects";
 import Writing from "./Writing";
-
+import Curations from "./Curations";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Route path="/archive" element={<Photos />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/writing" element={<Writing />} />
+        <Route path="/curations" element={<Curations />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </Router>
