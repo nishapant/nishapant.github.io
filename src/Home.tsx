@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import vinyl from "./vinyl.webp";
 import axios from "axios";
 import LoadingBar from "./LoadingBar";
+import { Link } from "react-router-dom";
 
 interface Track {
   name: string;
@@ -38,9 +39,9 @@ function Home() {
   return (
     <div className="flex flex-col justify-between h-screen">
         <header className="flex flex-row p-10 gap-x-5 justify-center text-blue font-bold px-15 font-azeret">
-          <a href="/projects" className="hover:underline hover:opacity-70">projects</a>
-          <a href="/writing" className="hover:underline hover:opacity-70">writing</a>
-          <a href="/archive" className="hover:underline hover:opacity-70">archive</a>
+          <Link to="/projects" className="hover:underline hover:opacity-70">projects</Link>
+          <Link to="/writing" className="hover:underline hover:opacity-70">writing</Link>
+          <Link to="/archive" className="hover:underline hover:opacity-70">archive</Link>
         </header>
         <div className="flex flex-col items-center justify-center h-screen space-y-4">
           <div>
