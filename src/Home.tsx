@@ -8,7 +8,6 @@ interface Track {
   name: string;
   url: string;
   artist: string;
-  date: string;
 }
 
 function Home() {
@@ -25,8 +24,7 @@ function Home() {
         const track = {
           name: data.name,
           artist: data.artist["#text"],
-          url: data.url,
-          date: data.date.uts
+          url: data.url
         }
         setTrack(track);
       } catch (err) {
