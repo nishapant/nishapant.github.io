@@ -82,7 +82,6 @@ function Home() {
             <a href="https://twitter.com/nishpant" className="hover:underline hover:opacity-70">twitter</a>
             <a href="https://on.soundcloud.com/aH8UhTznVxFqXgsr6" className="hover:underline hover:opacity-70">soundcloud</a>
             <a href="https://www.linkedin.com/in/nishapant/" className="hover:underline hover:opacity-70">linkedin</a>
-            <a href="https://www.cosmos.so/nishapant" className="hover:underline hover:opacity-70">cosmos</a>
           </div>
         </footer>
     </div>
