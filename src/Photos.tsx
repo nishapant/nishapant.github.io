@@ -61,14 +61,14 @@ function LazyImage({ image }: { image: Image }) {
 function Photos() {
   return (
     <div>
-      <header className="flex flex-row p-5 gap-x-5 justify-center text-magenta font-bold px-15 font-birthstone text-2xl">
+      <header className="flex flex-row p-5 gap-x-5 justify-center text-magenta font-bold px-15 font-birthstone text-xl sm:text-2xl">
         <Link to="/">NP</Link>
       </header>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5 px-10 font-azeret">
-        {images.map((image) => (
-          <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-5 px-4 sm:px-10 font-azeret">
+        {images.map((image, index) => (
+          <div key={index}>
             <LazyImage image={image} />
-            <p className="text-center font-bold mt-3 text-blue">{image.caption}</p>
+            <p className="text-center font-bold mt-2 sm:mt-3 text-blue text-sm sm:text-base">{image.caption}</p>
           </div>
         ))}
       </div>
