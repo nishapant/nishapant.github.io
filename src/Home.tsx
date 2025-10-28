@@ -17,10 +17,32 @@ function Home() {
   useEffect(() => {
     const loadMostRecentTrack = async () => {
       try {
+        const apiKey = process.env.REACT_APP_LAST_FM_API_KEY;
+        
+        if (!apiKey) {
+          console.warn('Last.fm API key not found. Please set REACT_APP_LAST_FM_API_KEY in your .env file');
+          setLoading(false);
+          return;
+        }
+
         const response = await axios.get(
-          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nishpant&api_key=${process.env.REACT_APP_LAST_FM_API_KEY}&format=json&limit=1`
+          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=nishpant&api_key=${apiKey}&format=json&limit=1`
         );
-        const data = response.data.recenttracks.track[0];
+        
+        if (response.data.error) {
+          console.error('Last.fm API error:', response.data.message);
+          setLoading(false);
+          return;
+        }
+
+        const tracks = response.data.recenttracks.track;
+        if (!tracks || tracks.length === 0) {
+          console.log('No recent tracks found');
+          setLoading(false);
+          return;
+        }
+
+        const data = Array.isArray(tracks) ? tracks[0] : tracks;
         const track = {
           name: data.name,
           artist: data.artist["#text"],
@@ -28,7 +50,7 @@ function Home() {
         }
         setTrack(track);
       } catch (err) {
-        console.log(err);
+        console.error('Error fetching Last.fm data:', err);
       } finally {
         setLoading(false);
       }
