@@ -6,7 +6,7 @@ export default function Home() {
 
     <li>I work at <a href="https://www.norm.ai/">Norm AI</a>, building compliance products and an AI-powered law firm</li>
 <li>Before that, I was employee #15 at <a href="https://www.moderntreasury.com/">Modern Treasury</a>, where I worked on payments and platform infrastructure</li>
-    <li>I’ve been learning about robotics and hardware</li>
+    <li>Recently, I’ve been learning about robotics and hardware</li>
 
     <li>I’m writing a book on 300 years of my family’s history</li>
     <li>I listen to a lot of rap, electronic, and classic rock</li>
