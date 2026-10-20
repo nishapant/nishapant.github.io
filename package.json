@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nishapant.github.io",
+  "homepage": "https://npant.xyz",
   "dependencies": {
     "@fontsource-variable/azeret-mono": "^5.1.1",
     "@fontsource/battambang": "^5.1.1",
