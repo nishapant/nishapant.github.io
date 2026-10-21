@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout, Photo, WritingList } from "./Site";
+import { Layout, Photo, WritingList, essays } from "./Site";
 
 export default function Home() {
   return <Layout><section className="intro"><div><h1>Nisha Pant</h1><ul className="bio">
@@ -11,6 +11,6 @@ export default function Home() {
     <li>I’m writing a book on 300 years of my family’s history</li>
     <li>I listen to a lot of rap, electronic, and classic rock</li>
     <li>I’m into fashion, especially vintage clothing</li>
-  </ul><section className="writing"><h2>Writing</h2><WritingList /></section></div>
+  </ul>{essays.length > 0 && <section className="writing"><h2>Writing</h2><WritingList /></section>}</div>
   <aside className="collage" aria-label="From my photo archive"><div className="landscape"><Photo name="chisapani" alt="A terrace overlooking the hills in Chisapani, Nepal" eager /></div><div className="pair"><Photo name="paris" alt="A sculpture at the Louvre in Paris" eager /><Photo name="maine-coast" alt="Wildflowers along the coast in Cape Elizabeth, Maine" eager /></div></aside></section></Layout>;
 }

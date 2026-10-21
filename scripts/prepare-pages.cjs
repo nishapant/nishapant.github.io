@@ -13,7 +13,8 @@ const html = fs.readFileSync(entry, 'utf8').replace(
 );
 fs.writeFileSync(entry, html);
 
-for (const route of ['archive', 'photos', 'writing', 'writing/building-a-cpu', 'writing/family-history']) {
+const publishedEssays = require('../src/essays.json').filter(essay => !essay.draft);
+for (const route of ['archive', 'photos', 'writing', ...publishedEssays.map(essay => `writing/${essay.slug}`)]) {
   const directory = path.join('build', route);
   fs.mkdirSync(directory, { recursive: true });
   fs.copyFileSync('build/index.html', path.join(directory, 'index.html'));
